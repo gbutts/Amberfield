@@ -1,0 +1,172 @@
+/* Main style sheet for amberfield.com.au */
+/* Version 3.1.0. Dated 24 Jan 10 */
+
+body {
+  background: url(../images/bg23.gif) repeat;
+  background-color: #f7eca0;
+  font-family: Tahoma, Arial, sans-serif;}
+
+p {
+  font-family: Tahoma, Arial, sans-serif;
+  background-color: transparent;
+  color: black;
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-size: 16px;
+  line-height: 1.2;}
+
+a:link {
+  background-color: transparent;
+  color: #d87008;}
+
+a:visited {
+  background-color: transparent;
+  color: #A52A2A;}
+
+a:focus, a:hover {
+  text-decoration: underline;}
+
+a:active {
+  color: #7c1314;
+  text-decoration: none;}
+
+a.breadcrumbs:visited {
+  background-color: transparent;
+  color: black;}
+
+h1, h2, h3, h4 {
+  background-color: transparent;
+  color: #ac0e11;
+  margin: 0;}
+
+h2 {
+  border-top: 1px solid #ac0e11;}
+
+h4 {
+  padding-top: 20px;}
+
+img.little {
+  border: 2px solid #ac0e11;}
+
+img.odd {
+  float: left;
+  border: 0px;
+  padding-right: 10px;}
+
+img.even {
+  float: right;
+  border: 0px;
+  padding-left: 10px;}
+
+p.image_links {
+  white-space: nowrap;
+  padding-top: 40px;}
+
+UL LI  {
+  list-style: url(../images/bullet1.gif) circle;}
+
+div {clear:both}
+
+.copyright {font-size: xx-small; text-align: center; padding-top: 40px;}
+.little {font-size: xx-small; text-align: center;}
+.small {font-size: 10pt; font-style: italic; line-height: 1.0; text-align: center; padding-top: 40px;}
+.click {font-size: 10pt; font-style: italic; line-height: 1.0; text-align: center; padding-top: 5px;}
+.smallink {font-size: 7pt; line-height: 1.0; text-align: right;}
+.smallinkL {font-size: 7pt; line-height: 1.0; text-align: left;}
+.breadcrumbs {font-size: 7pt; color: black; font-style: italic; text-align: right;}
+.error {font-weight: bold; color: red;}
+
+
+div.main {margin-left:120px;}
+div.nav_bar {position:absolute; left:10px; top:50px; text-align:right;}
+div.nav_bar a {font-size:11px;}
+div.table {font-size: 10pt; text-align: center; background-color: transparent; color:#DAA520;}
+div.results {font-size: 12pt; text-align: center; color:#DAA520;}
+div.champs {font-size: 12pt; margin-left: 15%; text-align: left; color:#DAA520;}
+div.champs1 {font-size: 10pt; text-align: left; color:#DAA520;}
+div.gmap {margin-top:20px; margin-bottom:10px; border: 3px solid #DAA520; width: 600px; height: 500px;}
+div.db_deets {border-bottom: thin dashed #DAA520; margin-top:10px; text-align: center; color:#DAA520;}
+
+/* Allows addition of text that will only show up in printed version, does not
+display on screen. */
+.sinvis{display: none;}
+
+.disclaimer{
+  /*width: 40%;*/
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  color: #DAA520;
+  text-align : justify;
+  border: 1px dashed #DAA520; padding: 10px;
+}
+
+.adtable {
+  background: #FCEFCD url(../images/bg.gif) repeat-x scroll top;
+  font-weight : bold;
+  font-size: 13px;
+  padding : 10px 5px 5px 5px;
+  color: #800000;
+  border : 1px solid #C18E16;
+}
+
+.button1 {
+  background-color: #DAA520;
+  border-color: #C18E16;
+  color: black;
+  font-family: verdana, arial, "ms sans serif";
+  /*font-weight: bold;*/
+  font-size: 10pt;
+  text-align: center;
+}
+
+.txta1 {
+  background-color: #FCFCAF;
+  color: #A52A2A;
+  font-size: 10pt;
+  font-family: verdana, arial, "ms sans serif";
+}
+
+.border2 {
+  border: 1px; color: #DAA520;
+}
+
+fieldset {
+  border: 1px solid #DAA520;
+  width: 22em;
+}
+
+legend {
+  text-align: center;
+  color: #DAA520;
+  padding: 2px 6px;
+}
+
+.champs {
+  /* border-top: 1px dashed #DAA520; */
+  padding-top: 20px;}
+
+/* Grand Champion Cells */
+/* Removes table borders from tri-coloured cells to simulate ribbons better */
+.GCred {
+  line-height: 0.3;
+  background-color:red;
+  border-bottom-width: 0pt;
+}
+
+.GCwhite {
+  line-height: 0.3;
+  background-color: white;
+  border-color: white;
+  border-bottom-width: 0pt;
+  border-top-width: 0pt;
+  color: black;
+  font-variant: small-caps;
+  font-weight:  bold;
+}
+
+.GCblue {
+  line-height: 0.3;
+  background-color: navy;
+  border-top-width: 0pt;
+}
+/* End Grand Champion Cells */

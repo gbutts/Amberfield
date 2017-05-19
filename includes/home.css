@@ -1,0 +1,221 @@
+/* Main style sheet for amberfield.com.au */
+/* Version 4.0.1. Dated 11 July 11 */
+
+body {
+  background: url(../images/back11.gif) repeat;
+  background-color: #000000;
+  font-family: Tahoma, Arial, sans-serif;}
+
+p {
+  font-family: Tahoma, Arial, sans-serif;
+  background-color: transparent;
+  color: #BDB76B;
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-size: 16px;
+  line-height: 1.2;}
+
+a:link {
+  background-color: transparent;
+  text-decoration: none;
+  color: #DAA520;}
+
+a:visited {
+  background-color: transparent;
+  color: #A52A2A;}
+
+a:focus, a:hover {
+  text-decoration: underline;}
+
+a:active {
+  color: #8B0000;
+  text-decoration: none;}
+
+a.breadcrumbs:visited {
+  background-color: transparent;
+  color: #DAA520;}
+
+h1, h2, h3, h4 {
+  background-color: transparent;
+  color: #DAA520;
+  margin: 0;}
+
+h2 {
+  border-top: 1px solid #DAA520;}
+
+h4 {
+  padding-top: 20px;}
+
+img.little {
+  border: 2px solid #DAA520;}
+
+img.odd {
+  float: left;
+  border: 0px;
+  padding-right: 10px;}
+
+img.even {
+  float: right;
+  border: 0px;
+  padding-left: 10px;}
+
+p.image_links {
+  white-space: nowrap;
+  padding-top: 40px;}
+
+UL LI  {
+  list-style: url(../images/bullet1.gif) circle;}
+
+div {clear:both}
+
+.copyright {font-size: xx-small; text-align: center; padding-top: 40px;}
+.little {font-size: xx-small; text-align: center;}
+.small {font-size: 10pt; font-style: italic; line-height: 1.0; text-align: center; padding-top: 40px;}
+.click {font-size: 10pt; font-style: italic; line-height: 1.0; text-align: center; padding-top: 5px;}
+.smallink {font-size: 7pt; line-height: 1.0; text-align: right;}
+.smallinkL {font-size: 7pt; line-height: 1.0; text-align: left;}
+.smallinkD {margin-left: 120px; font-size: 7pt; line-height: 1.0; text-align: left;}
+.breadcrumbs {font-size: 7pt; color: #DAA520; font-style: italic; text-align: right;}
+.error {font-weight: bold; color: red;}
+
+
+div.main {margin-left:120px;}
+
+div.nav_bar {position:absolute; left:10px; top:50px; text-align:right;}
+/* div.nav_bar a {font-size:11px;} */
+div.table {font-size: 10pt; text-align: center; background-color: transparent; color:#DAA520;}
+div.results {font-size: 12pt; text-align: center; color:#DAA520;}
+div.champs1 {font-size: 10pt; text-align: left; color:#DAA520;}
+div.gmap {margin-top:20px; margin-bottom:10px; border: 3px solid #DAA520; width: 600px; height: 500px;}
+div.db_deets {border-bottom: thin dashed #DAA520; margin-top:10px; text-align: center; color:#DAA520;}
+
+div.champs {font-size: 12pt; margin:0px auto 0px auto; width: 500px; text-align: left; color:#DAA520;}
+/* This is the best that can be done to centre the form in 'studchamps.php'.There is no 'align' in CSS. 
+Note: 'width: 500px' to match the width of the table in 'studchamps.php' not '50%' as suggested in refs. 
+See "http://dorward.me.uk/www/centre/#block" and "http://stackoverflow.com/questions/5661782/css-center-div-not-working" */
+
+//Temp heading
+div.temp1 {
+text-align: center;
+color: red;
+font-weight: bold;
+}
+
+/* Allows addition of text that will only show up in printed version, does not
+display on screen. */
+.sinvis{display: none;}
+
+.disclaimer{
+  /*width: 40%;*/
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  color: #DAA520;
+  text-align : justify;
+  border: 1px dashed #DAA520; padding: 10px;
+}
+
+.adtable {
+  background: #FCEFCD url(../images/bg.gif) repeat-x scroll top;
+  font-weight : bold;
+  font-size: 13px;
+  padding : 10px 5px 5px 5px;
+  color: #800000;
+  border : 1px solid #C18E16;
+}
+
+.button1 {
+  background-color: #DAA520;
+  border-color: #C18E16;
+  color: black;
+  font-family: verdana, arial, "ms sans serif";
+  /*font-weight: bold;*/
+  font-size: 10pt;
+  text-align: center;
+}
+
+.txta1 {
+  background-color: #FCFCAF;
+  color: #A52A2A;
+  font-size: 10pt;
+  font-family: verdana, arial, "ms sans serif";
+}
+
+.border2 {
+  border: 1px; color: #DAA520;
+}
+
+fieldset {
+  border: 1px solid #DAA520;
+  width: 520px;
+}
+
+legend {
+  text-align: left;
+  color: #DAA520;
+  padding: 2px 6px;
+}
+
+.champs {
+  /* border-top: 1px dashed #DAA520; */
+  padding-top: 20px;}
+
+.resultstext {
+margin-right: 100px; 
+}
+
+
+/* Grand Champion Cells */
+/* Removes table borders from tri-coloured cells to simulate ribbons better */
+.GCred {
+  line-height: 0.3;
+  background-color:red;
+  border-bottom-width: 0pt;
+}
+
+.GCwhite {
+  line-height: 0.3;
+  background-color: white;
+  border-color: white;
+  border-bottom-width: 0pt;
+  border-top-width: 0pt;
+  color: black;
+  font-variant: small-caps;
+  /* font-weight:  bold; */
+}
+
+.GCblue {
+  line-height: 0.3;
+  background-color: navy;
+  border-top-width: 0pt;
+}
+/* End Grand Champion Cells */
+
+#button {
+	width: 96px;
+	height: 26px;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	border-radius: 7px 7px 0px 7px;
+	-webkit-border-radius: 7px 7px 0px 7px;
+	-moz-border-radius: 7px 7px 0px 7px;
+	border: 1.75px solid #000000;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.0, #FFFDD7), color-stop(0.2, #FED126), color-stop(0.4, #D47946), color-stop(1.0, #D5A61C));
+	background: -webkit-linear-gradient(top, #FFFDD7 0.0%, #FED126 19.2%, #D47946 36.5%, #D5A61C 100.0%);
+	background: -moz-linear-gradient(top, #FFFDD7 0.0%, #FED126 19.2%, #D47946 36.5%, #D5A61C 100.0%);
+	background: -ms-linear-gradient(top, #FFFDD7 0.0%, #FED126 19.2%, #D47946 36.5%, #D5A61C 100.0%);
+	background: -o-linear-gradient(top, #FFFDD7 0.0%, #FED126 19.2%, #D47946 36.5%, #D5A61C 100.0%);
+	background: linear-gradient(top, #FFFDD7 0.0%, #FED126 19.2%, #D47946 36.5%, #D5A61C 100.0%);
+	box-shadow: 0px 1px 3px #515151;
+	-webkit-box-shadow: 0px 1px 3px #515151;
+	-moz-box-shadow: 0px 1px 3px #515151;
+	text-align: center;
+	text-indent: 0px;
+	color: #FED37D;
+	text-shadow: #515151 0px -1px 0px;
+	font: 14px/26px "Helvetica";
+}
+
+#buttontext {
+	position: relative;
+	bottom: 0px;
+}

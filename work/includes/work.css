@@ -1,0 +1,110 @@
+body {
+    background: url(../images/bg22.gif) repeat;
+	font: 14px "American Typewriter", "Lucida Sans Unicode", Verdana, sans-serif;
+	color: #333333;
+    background-color: #FFF;
+	margin: 0;
+	padding: 0;
+}
+h1 {
+    font: 36px bold, "Jenny", "Bradley Hand ITC", "Handwriting - Dakota", "Comic Sans MS", sans-serif;
+    background-color: transparent;
+    color: navy;
+}
+h2 {
+    font: 24px "Jenny", "Bradley Hand ITC", "Handwriting - Dakota", "Comic Sans MS", sans-serif;
+    background-color: transparent;
+    color: navy;
+}
+#wrapper {
+	margin: 0 auto;
+	width: 600px;
+}
+#content {
+	margin: 0 25px 0 25px;
+	padding: 10px;
+}
+#content p {
+	margin: 0 130px 6px 0;
+	text-align: justify;
+}
+#nav {
+	position: absolute;
+    left:75px;
+    top:150px;
+    width: 100px;
+}
+#nav ul {
+	margin: 15px 0 15px 0;
+	padding: 0;
+	list-style: none;
+	border: 0;
+}
+#nav li {
+	text-align: center;
+    border-bottom: 1px solid #DAA520;
+	width: 100px;
+	margin: 0;
+	padding: 0;
+	font: 10px/15px "Lucida Sans Unicode", Verdana, sans-serif;
+	background: #FFF;
+}
+.navtop {
+	border-top: 1px solid #DAA520;
+}
+#nav li a {
+	display: block;
+	font-weight: normal;
+	padding: 0;
+	border-left: 1px solid #DAA520;
+	border-right: 1px solid #DAA520;
+	background: #FFF;
+	color: #000;
+	text-decoration: none;
+	width: 100px;
+	/*voice-family: "\"}\""; */
+	voice-family: inherit;
+	width: 98px;
+}
+html>#nav li a {
+	width: 98px;
+}
+#nav li a:hover {
+	font-weight: normal;
+	background: #F0E68C;
+	color: #000;
+	text-decoration: none;
+}
+#footer {
+    font-size: xx-small;
+    border-bottom: 1px solid #DAA520;
+	border-top: 1px solid #DAA520;
+	text-align: center;
+	margin: 0 25px 0 25px;
+}
+#explain {
+    border-bottom: 1px solid #DAA520;
+	border-top: 1px solid #DAA520;
+	margin: 0 25px 0 25px;
+}
+#centre {
+	text-align: center
+}
+
+.error {
+	color: #FF0033
+}
+#smallink {
+    margin-top: 20px;
+    font-size: xx-small;
+    color: #000;
+}
+#littlelink {
+    margin-top: 20px;
+    font-size: small;
+    color: #000;
+}
+
+.champs {
+  /* border-top: 1px dashed #DAA520; */
+  padding-top: 20px;}

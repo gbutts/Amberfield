@@ -1,0 +1,12 @@
+# /robots.txt file for http://www.amberfield.com.au/
+# mail to: geoff@amberfield.com.au with questions
+
+User-agent: psbot
+Disallow: /images/
+
+User-agent: *
+Disallow: /js/
+Disallow: /includes/
+Disallow: /work/
+
+

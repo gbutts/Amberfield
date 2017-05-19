@@ -1,0 +1,59 @@
+/* This style sheet sets up AMF pages for printing. */
+
+body {
+  color: #000000;
+  background-color: #ffffff ;
+  border: 0;
+  margin-left: 10px;
+  margin-right: 10px; }
+
+div, p, th, li, dd, dl, dt {
+  color: #000000;
+  font: 10pt Georgia, Times New Roman, Times, serif;}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: verdana, geneva, arial, sans-serif; }
+
+.copyright {font-size: 8pt; }
+.small {font-size: 10pt; font-style: italic; }
+
+/* For printing, express text size in points not pixels */
+h1{
+  font-size: 24pt;}
+
+h2 {
+  font-size: 20pt;}
+
+h3 {
+  font-size: 18pt;}
+
+a {
+  color: #99cccc;
+  text-decoration: none;}
+
+a:hover {
+  text-decoration: none;}
+
+a:active {
+  color: #99ffff;}
+
+/* This hides the navigation menu, return link (top RHS) and click return in Pictures  */
+div.nav_bar, .breadcrumbs, .click {
+  display: none;}
+div.gmap {margin-top:20px; margin-bottom:10px; border: 2px; width: 600px; height: 500px;}
+
+/* For text that must be invisible when printed. */
+.pinvis {
+  display: none;}
+
+.quote {
+  display: none;}
+
+
+
+
+
+
+
+
+

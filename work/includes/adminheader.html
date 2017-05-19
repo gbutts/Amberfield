@@ -1,0 +1,28 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+	<title><?php echo $page_title; ?></title>
+    <link rel="stylesheet" type="text/css" href="./includes/work.css" media="screen" />
+</head>
+<body>
+<img src="./images/AMFmono_m.png" width="250" height="118" alt="" />
+<div id="wrapper"><!-- Open here, close in footer -->
+
+	<div id="content"><!-- Open here, close in footer -->
+
+		<div id="nav"><!-- Links section -->
+		  <ul>
+			<li class="navtop"><a href="/index.php" title="Go to the Home Page">Amberfield<br />Home</a></li>
+			<li><a href="index.php" title="Admin">Admin<br />Home Page</a></li>
+			<li><?php // Create a login/logout link:
+                if ( (isset($_SESSION['user_id'])) && (!strpos($_SERVER['PHP_SELF'], 'logout.php')) ) {
+	                echo '<a href="logout.php">Logout</a>';
+                } else {
+	                echo '<a href="login.php">Login</a>';
+                }?>
+            </li>
+          </ul>
+		</div>
+	<!-- End of Header -->
