@@ -1,6 +1,6 @@
 <?php   # amberfield.com.au - index.php
     $pname = 'Home Page';
-    $version  = 'v4.2.8'; //Update pix and tooltips
+    $version  = 'v4.5.1'; //Deleted Downlands involvement
 	$vdate = date("d F Y", getlastmod());
     $page_title = 'Amberfield Lowline Cattle Stud';
     include ('includes/header.html');
@@ -58,16 +58,12 @@
 	    
 	    <p>With our Australian Lowlines, we are committed to maintaining the original breed standard.</p>
 
-    <h3>Working with Downlands College</h3>
+    <h2>Want to Know More?</h2>
 
-		<p>We have recently donated some heifers to <a href="http://www.downlands.qld.edu.au/default.asp?contentID=227&amp;categoryID=4"
-		target="_blank">Downlands College</a> in Toowoomba. We continue to follow the progress of the 
-		students and their Lowline cows, steers and heifers as they develop their skills and experience together.</p>
-		
-   <h2>Want to Know More?</h2>
-
-	    <p class="pinvis">You are invited begin browsing our site by clicking one of the links in 
+	    <p class="minvis pinvis">You are invited begin browsing our site by clicking one of the links in 
 	    the margin.</p>
+	    
+	    <p class="sinvis pinvis mvis">You are invited begin browsing our site by using the page menu at the top.</p>
 	
 <?php
     include ('includes/navbar.html');

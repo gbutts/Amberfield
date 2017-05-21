@@ -1,4 +1,7 @@
-/* This style sheet sets up AMF pages for reading on an iPhone. */
+/* Mobile style sheet for amberfield.com.au */
+/* Version 4.5.1. Dated 21 May 17 */
+
+/* Dropdown: https://www.w3schools.com/css/css_dropdowns.asp */
 
 body {
   background-color: #000000 ;
@@ -8,7 +11,7 @@ body {
 
 div, p, th, li, dd, dl, dt {
   color: #BDB76B;
-  font: 10px Georgia, Times New Roman, Times, serif;}
+  font: 34px Tahoma, Arial, sans-serif;}
 
 h1, h2, h3, h4, h5, h6 {
   font-family: verdana, geneva, arial, sans-serif; }
@@ -18,13 +21,13 @@ h1, h2, h3, h4, h5, h6 {
 
 /* For printing, express text size in points not pixels */
 h1{
-  font-size: 14px;}
+  font-size: 40px;}
 
 h2 {
-  font-size: 12px;}
+  font-size: 38px;}
 
 h3 {
-  font-size: 18px;}
+  font-size: 36px;}
 
 a {
   color: #99cccc;
@@ -36,26 +39,82 @@ a:hover {
 a:active {
   color: #99ffff;}
 
+/* Added to undo margin in main css */
+div.main {margin-left:3px;}
+
+div.results {font-size: 20pt; text-align: center; color:#DAA520;}
+
+div.champs {font-size: 20pt; margin:0px auto 0px auto; width: 600px; text-align: left; color:#DAA520;}
+div.champs1 {font-size: 16pt; text-align: left; color:#DAA520;}
+
 /* This hides the navigation menu, return link (top RHS) and click return in Pictures  */
-div.nav_bar, .breadcrumbs, .click {
-  display: none;}
-div.gmap {margin-top:20px; margin-bottom:10px; border: 2px; width: 600px; height: 500px;}
+.breadcrumbs, .click {
+	display: none;}
+div.gmap {
+	margin-top:20px; margin-bottom:10px; border: 2px; width: 600px; height: 500px;}
 
 /* For text that must be invisible when printed. */
 .pinvis {
   display: none}
 
-.sinvis {
+.minvis {
   display: none}
+
+.mvis {
+  display: inline}
 
 .quote {
   display: none}
 
+.disclaimer {
+  display: none}
 
+/* Menu Dropdown */
+/* Style The Dropdown Button */
+.dropbtn {
+    background-color: #DAA520;
+    color: black;
+    padding: 16px;
+    font-size: 36px;
+    border: none;
+    cursor: pointer;
+}
 
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: absolute;
+    left: 250px;
+    min-width: 250px;
+    display: inline-block;
+}
 
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    background-color: #BDB76B;
+    min-width: 300px;
+    z-index: 1;
+}
 
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-align: left;
+    text-decoration: none;
+    display: block;
+}
 
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #BDB76B}
 
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
 
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #A52A2A;
+}
 

@@ -1,5 +1,5 @@
 /* Main style sheet for amberfield.com.au */
-/* Version 4.0.1. Dated 11 July 11 */
+/* Version 4.5.1. Dated 21 May 17 */
 
 body {
   background: url(../images/back11.gif) repeat;
@@ -43,7 +43,7 @@ h1, h2, h3, h4 {
 h2 {
   border-top: 1px solid #DAA520;}
 
-h4 {
+h3, h4 {
   padding-top: 20px;}
 
 img.little {
@@ -84,10 +84,12 @@ div.main {margin-left:120px;}
 div.nav_bar {position:absolute; left:10px; top:50px; text-align:right;}
 /* div.nav_bar a {font-size:11px;} */
 div.table {font-size: 10pt; text-align: center; background-color: transparent; color:#DAA520;}
-div.results {font-size: 12pt; text-align: center; color:#DAA520;}
+div.results {/* font-size: 12pt; */ text-align: center; color:#DAA520;}
 div.champs1 {font-size: 10pt; text-align: left; color:#DAA520;}
 div.gmap {margin-top:20px; margin-bottom:10px; border: 3px solid #DAA520; width: 600px; height: 500px;}
 div.db_deets {border-bottom: thin dashed #DAA520; margin-top:10px; text-align: center; color:#DAA520;}
+
+/* div.dropdown {display: none !important;} */
 
 div.champs {font-size: 12pt; margin:0px auto 0px auto; width: 500px; text-align: left; color:#DAA520;}
 /* This is the best that can be done to centre the form in 'studchamps.php'.There is no 'align' in CSS. 
@@ -104,6 +106,11 @@ font-weight: bold;
 /* Allows addition of text that will only show up in printed version, does not
 display on screen. */
 .sinvis{display: none;}
+/* or mobile */
+/* .minvis{display: none;} */
+
+.navselect {display: none;}
+
 
 .disclaimer{
   /*width: 40%;*/
