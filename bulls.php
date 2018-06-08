@@ -1,6 +1,6 @@
 <?php
     $pname = 'Stud Bulls';
-    $version  = 'v4.5.0'; //Add Mack, new pic for Hercules
+    $version  = 'v4.5.1'; //Delete Mack
 	$vdate = date("d F Y", getlastmod());
     $page_title = 'Amberfield :: '.$pname;
     include ('includes/header.html');
@@ -27,19 +27,6 @@
     target="_blank"><img src="images/sb1.png" border="0" alt="Hercules's Stud Book" title="Hercules's Stud Book" width="30" height="30" /></a></p>
 
   </div>
-  <div>
-    <img src="images/mack1.jpg" class="even" alt="Amberfield Mack" title="Amberfield Mack" width="250" height="190" />
-
-    <h2>Amberfield Mack</h2>
-
-    <p>Mack is our latest young bull, who's future is currently undecided. He may still become a steer for meat.</p>
-    
-    <p>Mack is for sale, registered or otherwise. All offers considered.</p>
-
-    <p class="smallink"><img src="images/sb0.png" border="0" alt="No Stud Book Entry" title="No Stud Book Entry" width="30" height="30" /></a></p>
-
-  </div>
-  <div><h2></h2></div>  
 <?php
     include ('includes/navbar.html');
     include ('includes/footer.html');

@@ -1,6 +1,6 @@
 <?php
     $pname = 'For Sale';
-    $version  = 'v4.5.0'; //Mack for slae
+    $version  = 'v4.5.1'; //Mack not for sale
 	$last_modified = filemtime("for_sale.php");
 	$vdate = date("d F Y", $last_modified);
     $page_title = 'Amberfield :: '.$pname;
@@ -15,9 +15,6 @@
 
 <h3>Show Bulls and Heifers</h3>
 
-    <p>For a short time, we have Amberfield Mack, a purebred bull for sale. He is currently unregistered but we are willing 
-	and able to put him through the process if registration is required. Contact us at the above address if you are interested.</p>
-    
     <p>We still produce show quality animals with strong genetics, however recently due to our change of focus, we
     have not been registering them. However, if you are interested in starting up a show herd or are 
     wanting to increase the genetic quality of your herd please contact us and we can discuss
@@ -27,7 +24,7 @@
     
 <h3>Bull Lease</h3>
 
-    <p>Some of our bulls are available for lease for up to three months. Click <a href="rollcall.php">here</a> and search for <strong>'Male'</strong> and <strong>'Still owned by Amberfield'</strong>.</p>
+    <p>Hercules is available for lease for up to three months. Click <a href="rollcall.php">here</a> and search for <strong>'Male'</strong> and <strong>'Still owned by Amberfield'</strong>.</p>
 
     <p>Please contact us if you are interested.</p><br />
 
